@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flappy Bird</title>
+
+    <!-- STYLES -->
+    <style>
+        html{
+            width: 100%;
+            height: 100%;
+        }
+        body{
+            background: url('./assets/sprites/bg.jpg') no-repeat center center fixed;
+        }
+        canvas{
+            border: 5px solid #222;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+
+</head>
+<body>
+    <canvas id="myCanvas" width="520" height="630"></canvas>
+
+    <!-- JS FILES -->
+    <script src="./js/init.js"></script>
+    <script src="./js/bird.js"></script>
+    <script src="./js/pipes.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
